@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-color: rgb(31, 31, 31);
+}
+h1{
+    margin: 0;
+    padding: 1.5em 2em;
+    text-align: center;
+    color:cyan;
+}
+.mb{
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    label{
+        padding-right: 3em;
+    }
+    align-items: center;
+}
+#enroll{
+    border: none;
+    background-color: #454444;
+    padding: 1em;
+    width: 45%;
+  
+    border-radius: 1em;
+    font-family: poppins;
+    color: white;
+    margin-right: 1.5em;
+    transition: 0.3s;
+    &:hover{
+        color:#454444;
+        background-color: #23eaea;
+    }
+}
+#clear{
+    border: none;
+    background-color:#23eaea;
+    padding: 1em;
+    width: 45%;
+    border-radius: 1em;
+    font-family: poppins;
+    color: #454444;
+    transition:0.3s;
+    &:hover{
+        color:#23eaea;
+        background-color: #454444;
+    }
+}
+.wrapper{
+  
+    display:flex ;
+    justify-content: space-between;
+    label{
+        color: cyan;
+    }
+    input{
+       
+        border:none;
+        border-bottom: 1px solid cyan;
+        padding: 0.5em 1em;
+        color: cyan;
+        background-color: transparent;
+        
+        &:focus{
+            outline:none;
+        }
+    }
+   
+    height: max-content;
+    padding: 1em 15em 1em 7em;
+    .left{
+        background-color: #333232;
+        
+        border-radius: 1em;
+        color: white;
+        height: max-content;
+        padding: 1.5em 2em;
+        font-size: 1.25em;
+
+    }
+    .right{
+        h2{
+            text-align: center;
+            color: #23eaea;
+        }
+        width: 35%;
+        img{
+            height: 200px;
+            width:200px;
+        }
+    }
+    .table{
+        border-collapse: collapse;
+    }
+    .table td{
+        padding: 0 3em;
+    }
+}
+
+ p{
+    color:#23eaea
+}
+tr th,td{
+    color: #23eaea;
+}
+table{
+    border: 2px solid #23eaea;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.hid{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}

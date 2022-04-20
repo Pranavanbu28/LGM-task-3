@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  background-color: #1f1f1f;
+}
+
+h1 {
+  margin: 0;
+  padding: 1.5em 2em;
+  text-align: center;
+  color: cyan;
+}
+
+.mb {
+  margin-bottom: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mb label {
+  padding-right: 3em;
+}
+
+#enroll {
+  border: none;
+  background-color: #454444;
+  padding: 1em;
+  width: 45%;
+  border-radius: 1em;
+  font-family: poppins;
+  color: white;
+  margin-right: 1.5em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#enroll:hover {
+  color: #454444;
+  background-color: #23eaea;
+}
+
+#clear {
+  border: none;
+  background-color: #23eaea;
+  padding: 1em;
+  width: 45%;
+  border-radius: 1em;
+  font-family: poppins;
+  color: #454444;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#clear:hover {
+  color: #23eaea;
+  background-color: #454444;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1em 15em 1em 7em;
+}
+
+.wrapper label {
+  color: cyan;
+}
+
+.wrapper input {
+  border: none;
+  border-bottom: 1px solid cyan;
+  padding: 0.5em 1em;
+  color: cyan;
+  background-color: transparent;
+}
+
+.wrapper input:focus {
+  outline: none;
+}
+
+.wrapper .left {
+  background-color: #333232;
+  border-radius: 1em;
+  color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1.5em 2em;
+  font-size: 1.25em;
+}
+
+.wrapper .right {
+  width: 35%;
+}
+
+.wrapper .right h2 {
+  text-align: center;
+  color: #23eaea;
+}
+
+.wrapper .right img {
+  height: 200px;
+  width: 200px;
+}
+
+.wrapper .table {
+  border-collapse: collapse;
+}
+
+.wrapper .table td {
+  padding: 0 3em;
+}
+
+p {
+  color: #23eaea;
+}
+
+tr th, td {
+  color: #23eaea;
+}
+
+table {
+  border: 2px solid #23eaea;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.hid {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+/*# sourceMappingURL=styles.css.map */
